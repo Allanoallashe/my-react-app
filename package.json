@@ -59,5 +59,13 @@
   "main": "craco.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allanoallashe/my-react-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Allanoallashe/my-react-app/issues"
+  },
+  "homepage": "https://github.com/Allanoallashe/my-react-app#readme"
 }
