@@ -11,10 +11,10 @@ const initialState = {
 
 export const ContextProvider = ({ children }) => {
 	const [activeMenu, setActiveMenu] = useState(true);
-	const [isCliked, setisCliked] = useState(initialState);
+	const [isClicked, setisClicked] = useState(initialState);
 
 	const handleClick = (clicked) => {
-		setisCliked({ ...initialState, [clicked]: true });
+		setisClicked({ ...initialState, [clicked]: true });
 	};
 
 	return (
@@ -22,8 +22,8 @@ export const ContextProvider = ({ children }) => {
 			value={{
 				activeMenu,
 				setActiveMenu,
-				isCliked,
-				setisCliked,
+				isClicked,
+				setisClicked,
 				handleClick,
 			}}
 		>
